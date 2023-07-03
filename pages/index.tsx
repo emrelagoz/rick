@@ -12,7 +12,7 @@ interface Character {
   species: string;
   status: string;
 }
-
+// aa
 const HomePage = () => {
   const [characters, setCharacters] = useState<Character[]>([]);
 
